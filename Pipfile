@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==5.0.4"
+psycopg2-binary = "*"
+djangorestframework = "*"
+drf-yasg = "*"
+
+[dev-packages]
+mysqlclient = "*"
+
+[requires]
+python_version = "3.10"
