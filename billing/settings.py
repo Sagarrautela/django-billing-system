@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-*@!z3g=zcmlm!mu6=0d-57y_81%hi52g5)=6$n-opum9bez3gm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["64.227.154.172"]
 
 
 # Application definition
@@ -82,22 +82,22 @@ WSGI_APPLICATION = 'billing.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'djangobilling',
-    #     'USER': 'sagar',
-    #     'PASSWORD': '123456789',
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '5432',
-    # }
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'djangobilling',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
+        'ENGINE': 'django.db.backends.postgresql',
+         'NAME': 'djangobilling',
+         'USER': 'sagar',
+         'PASSWORD': '123456789',
+         'HOST': '127.0.0.1',
+         'PORT': '5432',
+     }
+    #'default': {
+     #   'ENGINE': 'django.db.backends.mysql',
+      #  'NAME': 'djangobilling',
+       # 'USER': 'root',
+        #'PASSWORD': 'password',
+       # 'HOST': 'localhost',
+       # 'PORT': '3306',
+    #}
 }
 
 
